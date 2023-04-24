@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 900;
+    font-style: normal;
+    src: url("/../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 300;
+    src: url("/../fonts/OpenSans-Light.ttf");
+}
+
+
+body{
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+ 
+.d-flex{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+}
+
+.container-fluid{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container{
+    width: 90%;
+}
+header{
+    background:url("/images/main/fon.jpg") 
+}
+
+header > .container{
+    padding: 20px 10px;
+}
+
+header .container .topmenu img{
+    margin-left:100px;
+}
+header .container .topmenu a{
+    font-size: 0.875em;
+    text-decoration: none;
+    color: gray;
+    margin: 10px 30px;
+}
+
+header .container .topmenu a:hover,
+header .container .topmenu a.active{
+    color:#dfa52b;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217;
+}
+
+header form div{
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid orange;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type="text"]{
+    border: none;
+    margin-right: 10px;
+
+}
+header form div input[type="submit"]{
+    background: url("../images/main/search-interface-symbol.png");
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border: none;
+    margin-left: 70px;
+}
+
+header form div input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+header .cart{
+    align-items: flex-start;
+}
+
+header .cart img{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+header .cart div p{
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4e4d4b;
+    margin-top: 19px; 
+}
+
+header .cart  div a{
+    font-size: 0.750em;  
+}
+
+footer{
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+footer .left{
+    align-items: flex-start;
+    margin-left: 100px
+}
+
+footer .left figure img{
+    margin-left: 30px;
+}
+footer .left figure figcaption{
+    color:#f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 138px;
+    margin-left: 30px;
+}
+ 
+footer .container{
+    align-items: flex-start;
+}
+footer .left nav{
+    margin-left: 300px;
+}
+
+footer .left nav a{
+    display: block;
+    font-size: 0.875em;
+    color:#ffffff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover, footer .left nav a.active{
+    color:#dfa52b;
+}
+
+footer .right{
+    margin-right: 100px;
+}
+footer .right form div{
+    justify-content:left;
+    width: 458px;
+    border-bottom: 1px solid #ffffff;
+}
+
+footer .right form input[type="text"]{
+    padding: 8px 0;
+    width: 100%;
+    border: none;
+    background: none;
+    
+}
+
+footer .right form input[type="submit"]{
+    width: 20px;
+    height: 20px;
+    background: url("/images/main/search-interface-symbol.png")no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+footer .right > div{
+    text-align: center;
+    font-size:0.875em;
+   color: white;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box{
+    width: 50px;
+    height: 50px;
+    margin: 16px 16px 0;
+}
+
+footer .right .insta{
+    background: url("/images/main/instagram_icon_138461.png");
+    background-size:cover;
+}
+
+footer .right .telegram{
+    background: url("/images/main/telegram_logo_thin_icon_171481.png");
+    background-size:cover;
+}
+
+footer .right .vk{
+    background: url("/images/main/Vk.com_icon-icons.com_55781.png");
+    background-size:cover;
+}
+
+footer .copyrights{
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 0.750em;
+    margin-top:60px;
+}
+
+footer .copyrights a.email{
+     color: #f3f3f3;
+}
